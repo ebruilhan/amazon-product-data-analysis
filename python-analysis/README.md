@@ -29,9 +29,6 @@ The analysis groups the dataset by **product category**, calculates the **averag
 This allows us to identify which product categories receive the **highest customer satisfaction scores** on Amazon.
 
 
-
-
-
 # Analysis 2 — Lowest Rated Product Categories
 
 This analysis identifies the **Amazon product categories with the lowest average ratings**.  
@@ -61,12 +58,6 @@ lowest_rated
 The analysis groups the dataset by **product category**, calculates the **average rating** for each category and sorts the results from lowest to highest.
 
 This helps identify which product categories receive the **lowest customer satisfaction scores** on Amazon.
-
-
-
-
-
-
 
 
 
@@ -155,13 +146,6 @@ Categories with larger areas have significantly higher review counts.
 This helps quickly identify **high-demand product segments** on Amazon, such as USB cables and consumer electronics accessories.
 
 
-
-
-
-
-
-
-
 # Analysis 4 — Top 5 Amazon Product Categories by Average Discount
 
 This analysis visualizes the **Amazon product categories with the highest average discount percentages**.
@@ -200,14 +184,6 @@ The pie chart represents the **top five product categories with the highest aver
 Each slice shows the **percentage contribution of a category's discount level** relative to the others.
 
 This visualization helps identify product segments where **aggressive pricing or promotional strategies** are commonly applied.
-
-
-
-
-
-
-
-
 
 # Analysis 5 — Top Reviewed Product Categories
 
@@ -252,6 +228,5 @@ The horizontal bar chart displays the **top product categories with the largest 
 Categories with higher review counts often represent **popular and frequently purchased products**.
 
 This visualization helps highlight product segments with **strong customer activity and engagement**, particularly within electronics and consumer accessories.
-
 
 
