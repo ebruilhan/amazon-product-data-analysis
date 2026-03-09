@@ -1,43 +1,43 @@
 # Python Data Analysis
 
-This section contains the Python-based analysis of the Amazon product dataset.
+This folder contains the **Python-based exploratory data analysis (EDA)** performed on the Amazon product dataset.
 
-The analysis was performed using **Python, Pandas and Matplotlib** to explore patterns in product ratings, review counts and discount percentages.
-
-## Analysis Steps
-
-The following analyses were performed:
-
-- Top rated product categories
-- Lowest rated product categories
-- Product categories with highest review counts
-- Product categories with highest average discount
-- Visualization of review distribution across categories
-
-## Visualizations
-
-### Top Rated Product Categories
-
-![Top Rated Categories](top_rated_categories_python.png)
-
-### Lowest Rated Product Categories
-
-![Lowest Rated Categories](lowest_rating_categories_python.png)
-
-### Top Categories by Average Discount
-
-![Average Discount](python_average_discount_pie.png)
-
-### Top Reviewed Categories
-
-![Top Reviewed Categories](python_top_reviewed_categories_bar.png)
-
-### Review Distribution Treemap
-
-![Review Treemap](python_treemap_review_categories.png)
+The analysis was conducted using **Python, Pandas and Matplotlib** to explore patterns in product ratings, review counts and discount percentages across Amazon product categories.
 
 ## Tools Used
 
 - Python
 - Pandas
 - Matplotlib
+
+## Dataset
+
+The dataset includes:
+
+- Product category
+- Product rating
+- Rating count (number of reviews)
+- Discount percentage
+- Product pricing information
+
+These variables allow us to analyze product popularity, customer satisfaction and pricing behavior.
+
+---
+
+# Analysis 1 — Top Rated Product Categories
+
+This analysis identifies categories with the **highest average ratings**, which usually indicates strong product quality and customer satisfaction.
+
+### Python Code
+
+```python
+top_rated = (
+    df.groupby("category")["rating"]
+    .mean()
+    .round(2)
+    .sort_values(ascending=False)
+    .head(10)
+    .reset_index()
+)
+
+top_rated
