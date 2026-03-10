@@ -1,4 +1,22 @@
-# Amazon Product Data Analysis (Excel | SQL | Python)
+# Amazon Product Data Analysis | Excel, SQL & Python
+## Example Visualizations (EDA Results)
+
+![Highest Rated Categories](excel-analysis/highest_rating_categories.png)
+
+
+
+![Lowest Rated Categories](excel-analysis/lowest_rating_categories.png)
+
+
+![Top Reviewed Categories](excel-analysis/top_reviewed_categories_bar_chart.png)
+
+
+![Review Count Treemap](excel-analysis/review_count_treemap.png)
+
+
+![Average Discount Categories](excel-analysis/average_discount_pie_chart.png)
+
+
 ## Overview
 
 This project explores an **Amazon product dataset** to uncover insights about product ratings, customer reviews and pricing strategies.
@@ -99,8 +117,10 @@ This project was created as part of a **data analysis portfolio** to demonstrate
 # Author
 
 **Ebru İlhan**  
-Computer Engineering Student  
-Aspiring **Data Analyst**
+Computer Engineering Student at Karabük University  
+Aspiring Data Analyst | SQL | Python | Data Visualization
 
 GitHub:  
 https://github.com/ebruilhan
+
+https://www.linkedin.com/in/ebru-ilhan-3103b2341/
