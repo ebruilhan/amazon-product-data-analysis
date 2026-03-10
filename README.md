@@ -1,6 +1,8 @@
 **This project demonstrates exploratory data analysis using Excel, SQL and Python on a real-world e-commerce dataset.**
 
-# Amazon Product Data Analysis | Excel, SQL & Python
+# Amazon Product Data Analysis
+### Excel | SQL | Python
+
 ## Example Visualizations (EDA Results)
 
 ![Highest Rated Categories](excel-analysis/highest_rating_categories.png)
