@@ -1,4 +1,4 @@
-# Excel Data Analysis
+# Excel Exploratory Data Analysis
 
 This folder contains the data analysis performed using **Microsoft Excel** on the Amazon product dataset.
 
@@ -8,7 +8,7 @@ The dataset was analyzed using **Pivot Tables, aggregation functions and data vi
 
 ---
 
-# Dataset Overview
+## Dataset Overview
 
 The dataset contains Amazon product information including:
 
@@ -107,7 +107,7 @@ From this analysis we can observe several patterns:
 
 - Microsoft Excel
 - Pivot Tables
-- Data visualization charts
+- Excel Charts
 
 ---
 
@@ -116,3 +116,5 @@ From this analysis we can observe several patterns:
 This analysis demonstrates how Excel can be used for **exploratory data analysis (EDA)** to quickly identify patterns and trends in large datasets.
 
 The same dataset is also analyzed using **SQL and Python** in other folders of this repository to compare different analytical approaches.
+
+For SQL and Python based analysis, see the other folders in this repository.
