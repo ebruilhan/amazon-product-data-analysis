@@ -1,3 +1,16 @@
+# Python Exploratory Data Analysis
+
+This section contains exploratory data analysis performed using **Python, Pandas and Matplotlib** on the Amazon product dataset.
+
+Python was used to perform aggregation, category analysis and data visualization to better understand product ratings, review distribution and discount strategies.
+
+# Tools Used
+
+- Python
+- Pandas
+- Matplotlib
+- Data visualization techniques
+
 # Analysis 1 — Top Rated Product Categories
 
 This analysis identifies the **Amazon product categories with the highest average ratings**.  
@@ -216,6 +229,8 @@ plt.tight_layout()
 plt.savefig("python_top_reviewed_categories_bar.png", bbox_inches="tight")
 plt.show()
 ```
+
+
 
 ### Result
 
