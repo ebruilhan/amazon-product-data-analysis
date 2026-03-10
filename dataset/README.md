@@ -43,3 +43,9 @@ The goal is to identify patterns in:
 ## File
 
 - **amazon.csv** — main dataset used for all analyses
+
+
+## Note
+
+Due to the file size, GitHub may not display the dataset preview directly.  
+You can download the dataset or open it using the **Raw** option.
