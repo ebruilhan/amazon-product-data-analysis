@@ -1,3 +1,5 @@
+**This project demonstrates exploratory data analysis using Excel, SQL and Python on a real-world e-commerce dataset.**
+
 # Amazon Product Data Analysis | Excel, SQL & Python
 ## Example Visualizations (EDA Results)
 
@@ -23,9 +25,80 @@ This project explores an **Amazon product dataset** to uncover insights about pr
 
 The analysis was performed using **Excel, SQL and Python** to demonstrate different approaches to **exploratory data analysis (EDA)** and data visualization.
 
-The goal of this project is to analyze **customer satisfaction, product popularity and discount patterns** across different Amazon product categories.
+The goal of this project is to analyze customer satisfaction, product popularity and discount patterns across different Amazon product categories in order to better understand customer demand and pricing strategies in the Amazon marketplace.
 
 ---
+
+
+
+## Dataset
+
+The dataset used in this project contains Amazon product information including:
+
+• Product category hierarchy  
+• Product rating  
+• Number of customer reviews  
+• Discount percentage  
+• Product pricing information  
+
+The dataset was collected from publicly available Amazon product data and stored locally in this repository for analysis purposes.
+
+File location:
+dataset/amazon_products.csv
+
+---
+
+
+## Data Preparation
+
+Before performing the analysis, the dataset was prepared and cleaned to ensure accurate results.
+
+The following steps were applied:
+
+• Checked the dataset structure and column types
+
+• Converted rating values into numeric format for aggregation
+
+• Grouped products by category hierarchy
+
+• Removed potential inconsistencies in rating calculations
+
+• Calculated aggregated metrics such as average rating, total reviews and average discount
+
+These steps ensured the dataset was suitable for exploratory data analysis using Excel, SQL and Python.
+
+---
+
+
+## Business Questions
+
+This project explores the Amazon product dataset to answer several key business questions:
+
+• Which product categories have the highest customer satisfaction based on ratings?
+
+• Which product categories receive the highest number of customer reviews?
+
+• Which product categories offer the highest average discounts?
+
+• Are there relationships between product popularity, ratings and discount strategies?
+
+• Which categories might indicate potential quality issues based on lower ratings?
+
+Answering these questions helps identify customer preferences, high demand products and pricing strategies used across Amazon product categories.
+
+---
+# Tools Used
+
+The analysis in this project was conducted using the following tools:
+
+- **Microsoft Excel** — pivot tables and charts for initial exploration  
+- **SQL (MySQL / SQLite)** — querying and aggregating product data  
+- **Python**
+  - Pandas — data analysis
+  - Matplotlib — data visualization
+ 
+---
+
 
 # Project Structure
 
@@ -47,35 +120,11 @@ amazon-product-data-analysis
 │   └── Python exploratory data analysis using Pandas and Matplotlib
 ```
 
-
-
 ---
 
-# Tools Used
 
-The analysis in this project was conducted using the following tools:
 
-- **Microsoft Excel** — pivot tables and charts for initial exploration  
-- **SQL** — querying and aggregating product data  
-- **Python**
-  - Pandas
-  - Matplotlib
 
----
-
-# Dataset
-
-The dataset contains Amazon product information including:
-
-- Product category  
-- Product rating  
-- Rating count (number of reviews)  
-- Discount percentage  
-- Product pricing information  
-
-These variables allow us to analyze **customer satisfaction, product demand and pricing strategies**.
-
----
 
 # Analyses Performed
 
@@ -100,6 +149,8 @@ Some insights discovered during the analysis:
 - Some product segments show **aggressive discount strategies**, indicating competitive markets.  
 - Lower rated product categories may indicate **product quality or customer satisfaction issues**.
 
+  These insights demonstrate how product ratings, customer engagement and discount strategies vary across different product segments on Amazon.
+
 ---
 
 # Project Purpose
@@ -113,6 +164,8 @@ This project was created as part of a **data analysis portfolio** to demonstrate
 - Multi-tool data analysis workflows  
 
 ---
+
+
 
 # Author
 
